@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 #[Route('/nurse')]
 final class NurseController extends AbstractController
 {
-    #[Route('/index', name: 'app_nurse')]
+    #[Route('/index', name: 'nurse_getAll')]
 public function getAll(): JsonResponse
 {
     $json_nurse = file_get_contents('nurses.json');
