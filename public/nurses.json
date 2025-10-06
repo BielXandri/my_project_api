@@ -1,29 +1,19 @@
-[{ "id": 1, 
-"user": "ana", 
-"name": "Ana Perez", 
-"password": "1930486", 
-"mail": "anaperez@gmail.com" 
+[
+{
+  "id": 1, "username": "Raymond", 
+  "password": "2006"
 },
 {
-    "id": 2,
-    "user": "marc",
-    "name": "Marc Gomez",
-    "password": "4829103",
-    "mail": "marcgomez@gmail.com"
-  },
-  {
-    "id": 3,
-    "user": "lucia",
-    "name": "Lucia Torres",
-    "password": "7593021",
-    "mail": "lucia.torres@hotmail.com"
-  },
-  {
-    "id": 4,
-    "user": "david",
-    "name": "David Ruiz",
-    "password": "8601947",
-    "mail": "davidruiz@yahoo.es"
-  }
-
+   "id": 2, "username": "Biel", 
+  "password": "2006" 
+},
+{ 
+    "id": 3, "username": "Diego", 
+  "password": "1996" 
+},
+  
+{
+   "id": 4, "username": "Maxime", 
+  "password": "2005"
+ }
 ]

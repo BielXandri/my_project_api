@@ -8,9 +8,10 @@ use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+#[Route('/nurse')]
 final class NurseController extends AbstractController
 {
-    #[Route('/nurse/index', name: 'app_nurse')]
+    #[Route('/index', name: 'app_nurse')]
 public function getAll(): JsonResponse
 {
     $json_nurse = file_get_contents('nurses.json');
